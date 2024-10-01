@@ -321,7 +321,7 @@ cssStyle("body section.container",
     padding:10px 23% 10px 0px;
      
      `)    
-     addText(".container .secMain .main:nth-child(3) div:nth-child(2) span:first-child","$ 100")
+     addText(".container .secMain .main:nth-child(3) div:nth-child(2) span:first-child","$ 0")
     
     
      addText(".container .secMain .main:nth-child(3) div:nth-child(2) span:nth-child(2)","checkout")
