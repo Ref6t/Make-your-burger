@@ -313,28 +313,29 @@ cssStyle("body section.container",
      `)
      add("span","cost",2,".container .secMain .main:nth-child(3) div:nth-child(2)")    
      cssStyle(".container .secMain .main:nth-child(3) div:nth-child(2) .cost:first-child",`
-     font-size:36px;
-     font-weight:800;
+     font-size:32px;
+     font-weight:700;
      line-height:49.03px;
     //  background-color:green;
      color:#5243C2;
     padding:10px 23% 10px 0px;
      
      `)    
-     addText(".container .secMain .main:nth-child(3) div:nth-child(2) span:first-child","$ 0")
+     addText(".container .secMain .main:nth-child(3) div:nth-child(2) span:first-child","$ 100")
     
     
      addText(".container .secMain .main:nth-child(3) div:nth-child(2) span:nth-child(2)","checkout")
   
     cssStyle(".container .secMain .main:nth-child(3) div:nth-child(2) span:nth-child(2)",`
-    width:30%;
+    // width:20%;
+    display:block;
     font-size:16px;
     font-weight:600;
     line-height:20px;
-    // background-color:#5243C2;
+    background-color:#5243C2;
     color:#F5F5FF;
     text-align:center;
-    padding:25px 50px 25px 50px;
+    padding:25px 40px 25px 40px;
     border-radius:99px;
     `)
 
@@ -346,12 +347,13 @@ cssStyle("body section.container",
   
   cssStyle("body section.container .secOrder",`
     width:100%;
-    height:100%;
+    height:90%;
     // background-color:red;
     margin:auto;
     display:flex;
     justify-content:space-between;
-    align-items:center;
+    align-items:flex-start;
+    
     `)
 
     add("div","order",9,"body section.container .secOrder")
