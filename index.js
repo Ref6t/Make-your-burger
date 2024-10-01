@@ -368,15 +368,15 @@ cssStyle("body section.container",
     border-radius:30px;
 
     `)
-    addImg("/images/orderimages/cutiet.png","cutiet",1,"body section.container .secOrder div.order:nth-child(1)")
-    addImg("/images/orderimages/mayo.png","mayo",1,"body section.container .secOrder div.order:nth-child(2)")
-    addImg("/images/orderimages/onion.png","onion",1,"body section.container .secOrder div.order:nth-child(3)")
-    addImg("/images/orderimages/tomato.png","tomato",1,"body section.container .secOrder div.order:nth-child(4)")
-    addImg("/images/orderimages/cucumber.png","cucumber",1,"body section.container .secOrder div.order:nth-child(5)")
-    addImg("/images/orderimages/cheese.png","cheese",1,"body section.container .secOrder div.order:nth-child(6)")
-    addImg("/images/orderimages/salad.png","salad",1,"body section.container .secOrder div.order:nth-child(7)")
-    addImg("/images/orderimages/bun.png","bun",1,"body section.container .secOrder div.order:nth-child(8)")
-    addImg("/images/orderimages/bun2.png","bun2",1,"body section.container .secOrder div.order:nth-child(9)")
+    addImg("images/orderimages/cutiet.png","cutiet",1,"body section.container .secOrder div.order:nth-child(1)")
+    addImg("images/orderimages/mayo.png","mayo",1,"body section.container .secOrder div.order:nth-child(2)")
+    addImg("images/orderimages/onion.png","onion",1,"body section.container .secOrder div.order:nth-child(3)")
+    addImg("images/orderimages/tomato.png","tomato",1,"body section.container .secOrder div.order:nth-child(4)")
+    addImg("images/orderimages/cucumber.png","cucumber",1,"body section.container .secOrder div.order:nth-child(5)")
+    addImg("images/orderimages/cheese.png","cheese",1,"body section.container .secOrder div.order:nth-child(6)")
+    addImg("images/orderimages/salad.png","salad",1,"body section.container .secOrder div.order:nth-child(7)")
+    addImg("images/orderimages/bun.png","bun",1,"body section.container .secOrder div.order:nth-child(8)")
+    addImg("images/orderimages/bun2.png","bun2",1,"body section.container .secOrder div.order:nth-child(9)")
     cssStyle("body section.container .secOrder div.order img",`
     width:70px;
     height:25px;
