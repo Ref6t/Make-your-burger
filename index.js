@@ -143,7 +143,7 @@ cssStyle("body section.container",
     height:70%;
      `)
     
-    addImg( "/images/logo.png","logo",1,"nav div:first-child")
+    addImg( "images/logo.png","logo",1,"nav div:first-child")
     cssStyle("nav div:first-child ",`  
     width:30%;
     height:100%;
@@ -209,7 +209,7 @@ cssStyle("body section.container",
         text-transform:capitalize;
         `)
         
-        addImg( "/images/avatar.png","avatar",1,"nav div.head:nth-child(2)")
+        addImg( "images/avatar.png","avatar",1,"nav div.head:nth-child(2)")
         cssStyle("nav div.head:nth-child(2) .avatar",`
         width:60px;
         height:60px;
@@ -518,7 +518,6 @@ for(i=0;i<selectOrder.length;i++){
 
              for (let x = 0; x < totalAmount.length; x++) {
             let z = parseInt(totalAmount[x].textContent)*costs[x]
-            console.log(z);     
             total+=z
         }
             costScreen.textContent=" $ "+total
